@@ -1,0 +1,26 @@
+.gradient {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(40deg, #bb17e8, #0aa597);
+    background-size: 200% 200%;
+    -webkit-animation: gradient 10s ease infinite;
+    -moz-animation: gradient 10s ease infinite;
+    animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 92% 0%
+    }
+    50% {
+        background-position: 9% 100%
+    }
+    100% {
+        background-position: 92% 0%
+    }
+}
+
+body {
+    margin: 0;
+}
